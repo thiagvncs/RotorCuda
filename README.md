@@ -32,6 +32,10 @@ sudo apt install libgmp-dev -y
 
 pip install python-telegram-bot
 
+pip install requests
+
+pip install base58
+
 make clean
 
 make gpu=1 CCAP=86 all
